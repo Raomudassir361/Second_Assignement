@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student form</title>
+  </head>
+  <body>
+    <fieldset action=" ">
+        <legend>
+            <h1>Student Registration Form</h1>
+        </legend>
+    <form>
+
+      <label for="rolln">Roll no:</label>
+      <input type="number" name="" id="rolln" placeholder="xxxx" />
+      <br><br>
+      <label for="std">Student name:</label>
+      <input type="text" name="" id="std" placeholder="First Name" required>  - 
+      <input type="text" name="" id="std"placeholder="Last Name"required><br><br>
+      <label for="fname">Father's name:</label>
+      <input type="text" name="" id="fname" placeholder="Father's name"required><br><br>
+      <label for="dob">Date of birth:</label>
+      <input type="text" name="" id="dob_day" placeholder="day" size="2" required> - 
+      <input type="text" name="" id="dob_month" placeholder="month" size="2" required> - 
+      <input type="text" name="" id="dob_year" placeholder="year" size="4" required>
+      <label >(DD-MM-YY)</label><br><br>
+      <label for="mnum">Mobile no:</label>
+      <input type="text" name="" value="+92" size="2" id="" required> - 
+      <input type="number" name="" id="mnum"placeholder="xxxxxxxxxxx" maxlength="11"  required><br><br>
+      <label for="email">E-mail id:</label>
+      <input type="email" name="" id="email"placeholder="Enter your email" required><br><br>
+      <label for="pswd">Password:</label>
+      <input type="password" name="" id="psws" placeholder="Enter your password" required><br><br>
+      <label>Gender:</label>
+      <input type="radio" name="gender" id="male">
+      <label for="male">Male</label>
+       <input type="radio" name="gender" id="female">
+      <label for="male">Female</label>
+      <br><br>
+      <label>Department:</label>
+      <input type="checkbox" id="dep_1">
+      <label for="dep_1">CSE</label>
+      <input type="checkbox" id="dep_2">
+      <label for="dep_1">IT</label>
+      <input type="checkbox" id="dep_3">
+      <label for="dep_1">ECE</label>
+      <input type="checkbox" id="dep_4">
+      <label for="dep_1">Civil</label><br><br>
+      <label for="crse">Course:</label>
+      <select name="" id="">
+     <option value="math" >Math</option>
+        <option value="eng">English</option>
+        <option value="isl">Islamiat</option>
+      </select><br><br>
+      <label for="pic"> Student photo:</label>
+      <input type="file" name="" id="pic"><br><br>
+      <label for="cty"> City:</label>
+      <input type="text" name="" id="cty" placeholder="Enter your city" required><br><br>
+      <label for="address">Address:</label><br>
+      <textarea name="" id="address" rows="4" cols="10" placeholder="Enter your address" required></textarea><br><br>
+      <input type="submit" value="Register">
+   
+
+
+
+    </form>
+    </fieldset>
+  </body>
+</html>
